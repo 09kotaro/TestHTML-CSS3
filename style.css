@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 2% 25%;
+    border: 5px solid rgb(207, 203, 203);
+}
+.container{
+    
+    background-color: white;
+    border-radius: 5px;
+}
+.main{
+    background-color: rgb(207, 203, 203);
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+    [class*="col-"] {
+        float: left;
+        padding: 20px;
+     /*   border: 1px solid red; */
+}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+.profile img, .comment img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    float: left;
+    padding: 5px;
+}
+.profile a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(98, 218, 255);
+}
+.opacity{
+    opacity: 0.4;
+}
+.iconOption{
+    float: right;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+}
+.comment{
+    width: 100%;
+    background-color: rgb(190, 180, 180);
+    margin-top: 15px;
+    border-radius: 0px 0px 5px 5px;
+}
+.comment a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.comment .reply{
+    color: rgb(98, 218, 255);
+    display: inline-block;
+    margin: 0px 20px 0px 50px;
+}
+textarea{
+    border-radius: 5px;
+}
+.button{
+    color: white;
+    background-color: rgb(52, 66, 196);
+    border: none;
+    border-radius: 5px;
+    margin:10px 0px 10px 50px;
+    padding: 10px 24px;
+    font-size: 14px;
+}
+
